@@ -71,3 +71,29 @@ nav {
   text-align: left;
   text-decoration: none;
   border-radius: 5px;
+}
+
+.picto {
+  width: 40px;
+  padding: 30px;
+  margin: auto;
+}
+
+p {
+  margin: 0;
+  text-align: center;
+}
+
+h2 {
+  font-family: 'Space Grotesk', sans-serif;
+  text-align: center;
+  margin: 0 0 16px 0;
+}
+
+footer {
+  background-color: #060e17;
+  color: #ffffff30;
+  font-size: 10px;
+  text-align: center;
+  padding: 20px 50px 20px 50px;
+}
