@@ -1,10 +1,73 @@
 body {
-  max-width: 320px;
+  max-width: 380px;
   margin: auto;
   background: #ddd;
+  font-family: 'Space Grotesk', sans-serif;
 }
 
 img {
   display: block;
   max-width: 100%;
 }
+
+header {
+  background-image: url(../img/fond-bleu-technologie.png);
+  background-size: cover;
+  padding: 40px;
+  border-top: 5px solid;
+  border-color: #060e17;
+}
+
+.box-title {
+  background-color: #000000c9;
+  color: #e3f4ff;
+  padding: 40px;
+  margin: 0 0 20px 0;
+  text-align: center;
+}
+
+.cta {
+  background-color: #060e17;
+  color: #e3f4ff;
+  margin: 10px 20px;
+  padding:  10px 20px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 10px;
+}
+
+.cta-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.cta-light {
+  background-color: #e3f4ff;
+  color: #060e17;
+}
+
+nav {
+  display: flex;
+  flex-direction: column;
+}
+
+.section-light {
+  background-color: #e3f4ff;
+  padding: 40px;
+}
+
+.section-dark {
+  background-color: #060e17;
+  color: #e3f4ff;
+  padding: 40px;
+}
+
+.info-container{
+  background-color: #e3f4ff;
+  color: #060e17;
+  margin: 20px;
+  padding: 10px;
+  text-align: left;
+  text-decoration: none;
+  border-radius: 5px;
